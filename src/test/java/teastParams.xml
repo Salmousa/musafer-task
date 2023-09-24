@@ -1,0 +1,14 @@
+<suite name="APITestSuite">
+
+    <test name="POSTRequestTest">
+        <classes>
+            <class name="test">
+                <methods>
+                    <include name="testPOSTRequest" />
+                </methods>
+                <parameter name="hotelId" value="1079365" />
+                <parameter name="pId" value="5d0712fd-5275-4b58-a18e-5036b956c24c" />
+            </class>
+        </classes>
+    </test>
+</suite>
